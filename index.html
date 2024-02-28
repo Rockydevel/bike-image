@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #a1{
+            height: 760px;
+            width: 1520px;
+            border: 2px solid black;
+            background-image: url(./bike7.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #a2{
+            height: 540px;
+            width: 800px;
+            border: 2px solid black;
+            margin-left: 350px;
+        }
+        #a3{
+            height: 180px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 10px;
+            position: relative;  
+            top: 200px;
+
+        }
+        #a4{
+            height: 180px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 10px;
+            position: relative;
+            top: 10px;
+            left: 130px;
+            
+        }
+
+        #a5{
+            height: 180px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 10px;
+            position: relative;
+            top: 10px;
+            left: 300px;
+            
+        }
+        #a6{
+            height: 180px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 10px;
+            position: relative;
+            top: 10px;
+            left: 400px;
+            
+        }
+       
+
+    </style>
+</head>
+<body>
+    <script>
+
+        var a=document.createElement("div")
+        document.body.appendChild(a)
+        a.setAttribute("id","a1")
+
+        var b=document.createElement("img")
+        a.appendChild(b)
+        b.setAttribute("id","a2")
+        b.setAttribute("src","./bike5.jpeg")
+
+        var c=document.createElement("img")
+        a.appendChild(c)
+        c.setAttribute("id","a3")
+        c.setAttribute("src","./bike1.jpg")
+
+        c.addEventListener("click", ()=> {
+         b.setAttribute("src","./bike1.jpg")
+        })
+
+        var d=document.createElement("img")
+        a.appendChild(d)
+        d.setAttribute("id","a4")
+        d.setAttribute("src","./bike2.jpeg")
+
+        d.addEventListener("click", ()=> {
+         b.setAttribute("src","./bike2.jpeg")
+        })
+
+        var e=document.createElement("img")
+        a.appendChild(e)
+        e.setAttribute("id","a5")
+        e.setAttribute("src","./bike3.jpeg")
+        
+        e.addEventListener("click", ()=> {
+         b.setAttribute("src","./bike3.jpeg")
+        })
+
+        var f=document.createElement("img")
+        a.appendChild(f)
+        f.setAttribute("id","a6")
+        f.setAttribute("src","./bike6.jpeg")
+
+        f.addEventListener("click", ()=> {
+         b.setAttribute("src","./bike6.jpeg")
+        })
+
+
+
+
+
+    </script>
+</body>
+</html>
